@@ -41,6 +41,12 @@
             .icon {
                 font-size: 20px;
             }
+//반응형 디자인
+            @media (max-width:600px){
+                .logo span{
+                    display:none;
+                }
+            }
         </style>
     </head>
     <body>
